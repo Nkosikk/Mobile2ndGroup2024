@@ -12,7 +12,7 @@ public class MainMenuPage {
     AppiumDriverFactory appiumDriverFactory = AppiumDriverFactory.getInstanceOfAppiumFactory();
     AndroidUtils androidUtils;
 
-    private static By apiDemosHeading = By.xpath("//android.widget.TextView[@text=\"API Demos\"]");
+    private static By apiDemosHeading = By.xpath("//android.widget.TextView[@text=\"API DemosNkosi\"]");
 
     public MainMenuPage() {
         driver = appiumDriverFactory.getDriver();
