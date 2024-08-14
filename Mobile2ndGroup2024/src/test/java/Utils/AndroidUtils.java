@@ -13,6 +13,7 @@ public class AndroidUtils {
     }
 
 //Below is our first reusable method
+//We're checking if an element exist
     public Boolean objectExist(By by) {
         if (driver.findElements(by).size() == 0) {
             assert false;
