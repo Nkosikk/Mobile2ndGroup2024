@@ -23,7 +23,7 @@ public class AppiumDriverFactory {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("appium:automationName", "UiAutomator2");
         capabilities.setCapability("appium:app", System.getProperty("user.dir") + "/src/main/Apps/ApiDemos-debug.apk");
-        capabilities.setCapability("platformName", "Android");
+//        capabilities.setCapability("UDID", "emulator-5554");
 
     //We need to start appium in cmd then get the URL specified (only accessible from the same host)
         try {
