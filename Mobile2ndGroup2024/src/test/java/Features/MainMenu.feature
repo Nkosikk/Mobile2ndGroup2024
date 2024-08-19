@@ -6,3 +6,7 @@ Feature: ApI Demos
   Scenario: Verify that API demos heading is displayed
     Given App is launched
     And I verify that APi demos heading is displayed
+
+#  Scenario: Click App
+#    Given I am on the API Demos Main Menu page
+#    And I click the App element
