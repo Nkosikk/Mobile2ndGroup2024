@@ -2,6 +2,7 @@ package Utils;
 
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 public class AndroidUtils {
     private AppiumDriver driver;
@@ -18,5 +19,15 @@ public class AndroidUtils {
             assert true;
             return true;
         }
+    }
+
+    public void clickButton(By by) {
+        driver.findElement(by).click();
+    }
+
+    public void verifyAnswers(By by,String number) {
+        String value = driver.findElement(by).getText();
+        Assert.assertEquals(value,number);
+
     }
 }

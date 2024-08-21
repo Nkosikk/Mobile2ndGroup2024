@@ -16,7 +16,7 @@ public class AppiumDriverFactory {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("appium:automationName", "UiAutomator2");
-        capabilities.setCapability("appium:app", System.getProperty("user.dir") + "/src/main/Apps/ApiDemos-debug.apk");
+        capabilities.setCapability("appium:app", System.getProperty("user.dir") + "/src/main/Apps/Calculator.apk");
 //        capabilities.setCapability("UDID", "emulator-5554");
 
         try {
